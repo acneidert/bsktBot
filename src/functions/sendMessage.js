@@ -1,5 +1,5 @@
 var axios = require('axios');
-const Whatsapp = require('../config/whatsapp');
+const Whatsapp = require('../config/Whatsapp');
 require('dotenv').config();
 
 module.exports = async function sendMessage({ message='', to }) {

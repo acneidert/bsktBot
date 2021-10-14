@@ -1,7 +1,7 @@
 const { initializeWpp } = require("./src/app/initializeWpp");
 const log = require("log-beautify");
 
-const Whatsapp = require("./src/config/whatsapp");
+const Whatsapp = require("./src/config/Whatsapp");
 const LVL = require("./src/config/logLevels");
 
 
