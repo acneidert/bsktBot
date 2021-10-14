@@ -1,0 +1,22 @@
+{
+  "name": "bsktbot",
+  "version": "1.0.0",
+  "description": "Bot de agenda de basquete",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andre Neidert <acneidert@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "agenda": "^4.2.1",
+    "axios": "^0.22.0",
+    "dotenv": "^10.0.0",
+    "log-beautify": "^1.2.0",
+    "mongoose": "^6.0.9",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0",
+    "uuid": "^8.3.2"
+  }
+}
